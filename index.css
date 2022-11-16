@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: rgb(3, 5, 24);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60px;
+    padding: 80px 20vw; /* 20 view-width will make site more responsive */
+}
+
+.blue {
+    background: blue;
+}

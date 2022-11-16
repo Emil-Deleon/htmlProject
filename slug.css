@@ -1,0 +1,37 @@
+html {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+padding-bottom: 35px;
+}
+
+#p2 {
+    padding-top: 55px;
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgb(19, 18, 18), green,rgb(255, 85, 0));
+    border-radius: 30px; /*shorthand syntax*/
+    padding: 20px;
+}
+
+#redemption {
+    padding-top: 45px;
+    color: red;
+}
+/* TODO: Learn How to manipulate B-R, do it in a shortcut, and have fun wit it! */
+.jose {
+    border-radius: 90% 10% 45% 55% / 30% 24% 76% 70%;
+    transition: border-radius 500ms ease-in-out;
+}
+
+.jose:hover {
+ border-radius: 44% 56% 83% 17% / 45% 72% 28% 55%;
+}
+
+
+/* 90% 10% 45% 55% / 30% 24% 76% 70%
+    44% 56% 83% 17% / 45% 72% 28% 55%
