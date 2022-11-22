@@ -25,7 +25,7 @@ nav {
     display: flex; 
     justify-content: space-between; 
     padding: 1rem 2rem; 
-    background-image: linear-gradient(#ffb30b, #f36a3e); 
+    background-image: linear-gradient(#f36a3e, #ffb30b); 
   }
   
   nav ul {
@@ -40,4 +40,17 @@ nav {
   nav a {
     text-decoration: none;
     color: #0d47a1
-  }
+  } 
+
+  @media only screen and (max-width: 420px) { /*devices 600px and smaller*/
+    nav {
+      flex-direction: column;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-top: 0.02rem;
+    }
+    nav li {
+      padding: 0.02rem 0;
+    }
+  } 
